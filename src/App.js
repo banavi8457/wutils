@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './components/Navbar';
+import WordForm from './components/WordForm';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+
+   {/* <Navbar /> */}
+  {/* <Navbar title = 'textutils' /> */}
+
+  <Navbar title = 'Textutils'  about=' About' />
+
+  <div className="container my-3">  
+
+      {/* div.container my-3 is boothstrap container  */}
+   <WordForm heading = "Enter the text to analyze"/>
+  </div>
+  </>
+    
   );
 }
 
