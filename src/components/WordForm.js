@@ -1,7 +1,12 @@
+
+
 import React,{useState } from 'react'
 
 export default function WordForm(props) {
+    
+    const [text,setText] = useState(' ');
 
+    
         const handleUpClick = ()=>{
             // console.log('uppercase was clicked :'+ text);
             let newText = text.toUpperCase();
@@ -38,7 +43,9 @@ export default function WordForm(props) {
 
 
 
-    const [text,setText] = useState(' ');
+
+
+
     // const [text,setText] = useState('Enter text here');
     // text= 'new text'; // wrong way to change the state
     // setText ('new text'); // correct way to change the state

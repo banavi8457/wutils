@@ -1,4 +1,7 @@
 
+
+
+
 import './App.css';
 import Navbar from './components/Navbar';
 import WordForm from './components/WordForm';
