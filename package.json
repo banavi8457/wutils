@@ -1,6 +1,6 @@
 {
-     "homepage": "https://banavi8457.github.io/text-wordutils",
-     "name": "wordsutils",
+     "homepage": "https://banavi8457.github.io/wutils/",
+     "name": "wutils",
      "version": "0.1.0",
      "private": true,
      "dependencies": {
